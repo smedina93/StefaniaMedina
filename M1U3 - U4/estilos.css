@@ -1,23 +1,24 @@
 body {
-    background-color: antiquewhite;
+    background: rgb(238,174,202);
+    background: radial-gradient(circle,rgba(238,174,202,1) 0%,
+     rgba(232,131,186,1) 44%, rgba(148,187,233,1) 67%);
     font-family: serif;
     color:dimgray;
     padding-left: 5%;
     
 }
 h1 {
-    color:darkslategrey
+    color:darkslategrey;
+    text-shadow: 5px 5px 5px grey;
 }
 h3{
     color:darkslategrey;
 }
-img{
-    width:20%;
-    height:15%;
-}
 .encabezado {
-    display: flex;
-    
+    display: flex;   
+}
+img {
+    width:200px;
 }
 .datos{
     padding-left: 12%;
@@ -30,4 +31,24 @@ img{
 }
 .pie {
     text-align: center;
+    background-color: grey;
+    width:15% ;
+    margin-left: 40%;
+    border-radius: 77px 77px 77px 77px;
+-webkit-border-radius: 77px 77px 77px 77px;
+-moz-border-radius: 77px 77px 77px 77px;
+    box-shadow:5px 5px 5px black ;
+}
+a:hover{
+    color:black
+}
+
+.contacto {
+    font-size:x-large;
+    margin-left:46% ;
+    margin-top:1%;
+}
+
+i:hover{
+ color:black
 }
