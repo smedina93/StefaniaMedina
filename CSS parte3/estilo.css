@@ -1,0 +1,85 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+
+}
+.contenedorUno{
+    background-color: cadetblue;
+    font-size:x-large;
+    margin:4px;
+    width:300px
+}
+.contenedorUno:hover{
+    background-color:darkblue;
+    -webkit-box-shadow: 10px 10px 5px -4px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 5px -4px rgba(0,0,0,0.75);
+box-shadow: 10px 10px 5px -4px rgba(0,0,0,0.75);
+}
+.contenedorDos{
+    background-color: yellow;
+    margin:4px;
+    width:300px
+}
+.contenedorDos:hover{
+    animation: myAnim 1s ease 0s 1 normal forwards
+}
+@keyframes myAnim{
+    0% {
+		transform: scale(1);
+	}
+
+	100% {
+		transform: scale(0.5);
+	}
+}
+.contenedorTres{
+    background-color: rosybrown;
+    font-size:x-large;
+    margin:4px;
+    width:300px
+    
+}
+.contenedorTres:hover{
+    background-color: blueviolet;
+    animation: anima 2s ease 0s 1 normal forwards;
+}
+@keyframes anima {
+    0% {
+		transform: scale(1);
+	}
+
+	50% {
+		transform: scale(1.1);
+	}
+
+	100% {
+		transform: scale(1);
+	}
+}
+
+.contenedorCuatro{
+    background-color: violet;
+    font-size:x-large;
+    margin:4px;
+    width:300px
+   
+}
+.contenedorCuatro:hover {
+    animation: anim 1.5s ease 0s 1 normal forwards;
+}
+
+@keyframes anim {
+    0% {
+		opacity: 0;
+	}
+
+	100% {
+		opacity: 1;
+	}
+}
+@media (min-width:768px){
+    body {
+        margin-left:5%;
+        display:flex
+    }
+}
