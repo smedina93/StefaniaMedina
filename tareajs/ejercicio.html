@@ -1,0 +1,18 @@
+<script>
+let distancia = prompt ('ingrese la distancia a recorrer')
+if (distancia <= 1000){
+    document.write('el transporte adecuado es a pie')
+}
+else if (distancia > 1000 && distancia <10000) {
+    document.write("el transporte adecuado es bicicleta")
+}
+else if( distancia > 10000 && distancia < 30000) {
+    document.write("el transporte adecuado es colectivo")
+}
+else if (distancia > 30000 && distancia <100000){
+    document.write("el transporte adecuado es auto")
+}
+else {document.write("el transporte adecuado es avion")}
+
+
+</script>
