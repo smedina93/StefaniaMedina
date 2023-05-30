@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../estilo.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="contenedoruno" id="violeta"></div>
+    <div class="contenedordos" id="rosa"></div>
+    <div class="contenedortres" id="verdeagua"></div>
+    <script>
+        const contenedoruno = document.getElementById("violeta");
+        const contenedordos = document.getElementById("rosa");
+        const contenedortres = document.getElementById("verdeagua");
+        const body = document.body;
+
+        contenedoruno.onclick = function() {
+            body.style.backgroundColor = "blueviolet";
+        }
+
+        contenedordos.onclick = function() {
+            body.style.backgroundColor = "lightpink";
+        }
+
+        contenedortres.onclick = function() {
+            body.style.backgroundColor = "aquamarine";
+        }
+    </script>
+</body>
+</html>
